@@ -61,6 +61,30 @@ header h1{
     box-shadow:0 0 20px #00e5ff;
 }
 
+.socials{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.socials a{
+    text-decoration:none;
+    color:white;
+    background:#111;
+    border:1px solid #00e5ff;
+    padding:12px 25px;
+    border-radius:30px;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+.socials a:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 15px #00e5ff;
+}
+
 .products{
     padding:50px 20px;
 }
@@ -103,7 +127,17 @@ footer{
     padding:20px;
     margin-top:50px;
     background:#111;
-    
+}
+
+footer a{
+    color:#00e5ff;
+    text-decoration:none;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+</style>
 </head>
 
 <body>
@@ -117,20 +151,19 @@ footer{
     <h2>WELCOME GAMERS!</h2>
     <p>Top Up Diamond & UC Dengan Proses Instan dan Harga Terjangkau.</p>
 
-    <a href="https://wa.me/6285832638910" class="btn">
-        Kontak Whatsapp
+    <a href="https://wa.me/6285832638910" class="btn" target="_blank">
+        📱 Kontak WhatsApp
     </a>
+
     <div class="socials">
+        <a href="https://www.instagram.com/chill_gamestore/" target="_blank">
+            📸 Instagram
+        </a>
 
-    <a href="https://www.instagram.com/chill_gamestore/" target="_blank">
-        📸 Instagram
-    </a>
-
-    <a href="https://web.facebook.com/HarahapDocs" target="_blank">
-        👍 Facebook
-    </a>
-
-</div>
+        <a href="https://web.facebook.com/HarahapDocs" target="_blank">
+            👍 Facebook
+        </a>
+    </div>
 </section>
 
 <section class="products">
@@ -154,19 +187,22 @@ footer{
         </div>
 
         <div class="card">
-            <h3>Coin E-Football</h3>
-            <p>Top Up Coin E-football Cepat.</p>
+            <h3>E-Football</h3>
+            <p>Top Up Coin E-Football Cepat.</p>
         </div>
 
     </div>
 </section>
 
 <footer>
-    © 2026 CHILL GAMESTORE - All Rights Reserved
+    <p>© 2026 CHILL GAMESTORE</p>
+    <p>Top Up Game Murah • Cepat • Aman</p>
 
-    <br><br>
+    <br>
 
-    Instagram: @chill_gamestore
+    <a href="https://www.instagram.com/chill_gamestore/" target="_blank">
+        📸 @chill_gamestore
+    </a>
 </footer>
 
 </body>
