@@ -1,10 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>CHILL GAMESTORE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHILL GAMESTORE</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0a0a0a;
+    color:white;
+}
+
+header{
+    background:linear-gradient(135deg,#00e5ff,#7b2cff);
+    padding:20px;
+    text-align:center;
+    box-shadow:0 0 25px #00e5ff;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:2.5rem;
+    color:#00e5ff;
+}
+
+.hero p{
+    margin-top:15px;
+    color:#ddd;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 35px;
+    background:#00e5ff;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px #00e5ff;
+}
+
+.products{
+    padding:50px 20px;
+}
+
+.products h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#151515;
+    padding:20px;
+    border-radius:15px;
+    border:1px solid #333;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px #7b2cff;
+}
+
+.card h3{
+    color:#00e5ff;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#ccc;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    background:#111;
+}
+</style>
 </head>
+
 <body>
+
+<header>
     <h1>CHILL GAMESTORE</h1>
-    <p>Selamat datang di website top up game.</p>
+    <p>Top Up Game Murah • Cepat • Aman</p>
+</header>
+
+<section class="hero">
+    <h2>WELCOME GAMERS!</h2>
+    <p>Top Up Diamond & UC Dengan Proses Instan dan Harga Terjangkau.</p>
+
+    <a href="https://wa.me/6281234567890" class="btn">
+        Hubungi WhatsApp
+    </a>
+</section>
+
+<section class="products">
+    <h2>🔥 PRODUK POPULER 🔥</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Mobile Legends</h3>
+            <p>Diamond ML Murah dan Cepat.</p>
+        </div>
+
+        <div class="card">
+            <h3>Free Fire</h3>
+            <p>Top Up Diamond FF Harga Terbaik.</p>
+        </div>
+
+        <div class="card">
+            <h3>PUBG Mobile</h3>
+            <p>UC PUBG Instan 24 Jam.</p>
+        </div>
+
+        <div class="card">
+            <h3>Honor of Kings</h3>
+            <p>Top Up Token HOK Cepat.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 CHILL GAMESTORE - All Rights Reserved
+</footer>
+
 </body>
 </html>
